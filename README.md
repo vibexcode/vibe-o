@@ -1,2 +1,2 @@
 # vibe-o
-ontological addressing entities with dynamical column matrix
+ontological addressing entities modelling with dynamical column matrix
