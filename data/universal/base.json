@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "binary_id": "1",
+      "name": "Varlık",
+      "namespace": "universal",
+      "level": 0,
+      "description": "Evrende var olan her şey"
+    },
+    {
+      "binary_id": "1.0",
+      "name": "Canlı",
+      "namespace": "universal",
+      "level": 1,
+      "description": "Hayat gösteren varlıklar",
+      "parent": "1"
+    },
+    {
+      "binary_id": "1.0.0",
+      "name": "Hayvan",
+      "namespace": "universal",
+      "level": 2,
+      "description": "Hareket edebilen canlılar",
+      "parent": "1.0"
+    },
+    {
+      "binary_id": "1.0.0.15",
+      "name": "Arı",
+      "namespace": "universal",
+      "level": 3,
+      "description": "Küçük, tozlanmayı sağlayan böcek",
+      "parent": "1.0.0",
+      "functions": ["fly", "produce_honey", "pollinate"]
+    },
+    {
+      "binary_id": "1.1.0",
+      "name": "Teknoloji",
+      "namespace": "universal",
+      "level": 1,
+      "description": "İnsan yapımı araçlar ve sistemler",
+      "parent": "1"
+    },
+    {
+      "binary_id": "1.1.0.5",
+      "name": "Drone",
+      "namespace": "universal",
+      "level": 2,
+      "description": "Uçan, görüntülü insansız hava aracı",
+      "parent": "1.1.0",
+      "functions": ["fly", "record_video", "autonomous_navigation"]
+    }
+  ]
+}
